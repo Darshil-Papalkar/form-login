@@ -17,12 +17,12 @@
 
 .form-box{
     background: rgba(148, 146, 146, 0.2);
-    width: 35%;
+    width: 40%;
     text-align: center;
     position: relative;
-    margin: 3% auto 15%;
+    margin: 5% auto;
     border-radius: 0 10%;
-    border: 2px solid #fff;
+    border: 4px solid #fff;
 }
 
 .form-frame{
@@ -31,15 +31,14 @@
 
 .form-header{
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 3.5em;
+    font-size: 3rem;
     font-weight: 700;
     color: #fff;
-    margin: 2% 7% 5%;
 }
 
 .form-body{
     text-align: left;
-    padding: 3% 3% 10%;
+    padding: 3% 3% 0;
 }
 
 .form-attr{
@@ -48,8 +47,6 @@
 
 .form-input{
     color: #fff;
-    font-weight: 600;
-    font-size: 1.4em;
     border: 2px solid white;
     background-color: transparent;
     padding: 5px 10px;
@@ -59,7 +56,6 @@
 .form-input::placeholder{
     font-family: 'Julius Sans One', sans-serif;
     color: #fff;
-    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -69,6 +65,7 @@
 }
 
 .form-register{
+    font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     color: #fff;
     font-size: 1rem;
@@ -81,4 +78,10 @@
 
 .register-link:hover{
     color: rgb(46, 45, 41);
+}
+
+@media (max-width: 475px){
+    .form-box{
+        width: 70%;
+    }
 }
