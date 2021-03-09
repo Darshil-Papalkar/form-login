@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.form{
+    position: fixed;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.form-box{
+    background: rgba(148, 146, 146, 0.2);
+    width: 35%;
+    text-align: center;
+    position: relative;
+    margin: 3% auto 15%;
+    border-radius: 0 10%;
+    border: 2px solid #fff;
+}
+
+.form-frame{
+    padding: 10%;
+}
+
+.form-header{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #fff;
+    margin: 2% 7% 5%;
+}
+
+.form-body{
+    text-align: left;
+    padding: 3% 3% 10%;
+}
+
+.form-attr{
+    margin: 5% auto;
+}
+
+.form-input{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4em;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: auto auto auto 10px;
+}
+
+.form-input::placeholder{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.submit-button{
+    text-align: right;
+    margin: 15px auto;
+}
+
+.form-register{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.register-link{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.register-link:hover{
+    color: rgb(46, 45, 41);
+}
