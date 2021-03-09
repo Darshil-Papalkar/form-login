@@ -83,5 +83,6 @@
 @media (max-width: 475px){
     .form-box{
         width: 70%;
+        margin: 10% auto;
     }
 }
