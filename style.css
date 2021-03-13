@@ -6,7 +6,7 @@
 
 .form{
     position: fixed;
-    background-image: url(./background.png);
+    background-image: url(./bgimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@
     margin: 7% auto;
     border-radius: 0 10%;
     border: 4px solid #fff;
-    box-shadow: 7px 7px 8px gray;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .form-frame{
@@ -78,7 +78,8 @@
 }
 
 .register-link:hover{
-    color: rgb(46, 45, 41);
+    color: rgb(190, 163, 55);
+    font-weight: 600;
 }
 
 @media (max-width: 475px){
